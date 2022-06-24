@@ -1,0 +1,47 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "AddStudent";
+}
+<hr/>
+<hr />
+<h3 style="color: red; text-align: center;">Fill the given details:</h3>
+<hr/>
+<form>
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label for="inputEmail4">Student's Reg Number</label>
+            <input type="number" class="form-control" id="inputEmail4" placeholder="reg number">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputPassword4">Phone no.</label>
+            <input type="number" class="form-control" id="inputPassword4" placeholder="9844859085">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="form-group col-md-4">
+            <label for="inputAddress">Temporary address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Kathmandu,Nepal">
+        </div>
+        </div>
+        <div class="form-group">
+            <div class="form-group col-md-4">
+                <label for="inputAddress2">Permanent address</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Lamki,kailali">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+               Parent's Name: <input type="text" class="form-control" id="text">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputState">Faculty</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>BSC CSIT</option>
+                    <option>BCA</option>
+                    <option>BIM</option>
+                    <option>Others</option>
+                </select>
+            </div>
+            <hr/>
+            <button type="submit" class="btn btn-primary" style="justify-content: center">Add Student</button>
+</form>
